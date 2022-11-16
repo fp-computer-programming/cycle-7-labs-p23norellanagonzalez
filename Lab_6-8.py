@@ -9,9 +9,12 @@ third_val = int(input('Please enter a number here '))
 val_list = [first_val, second_val, third_val]
 print(val_list) 
 
+# Use method that displays if the program is even
 if first_val%2 == 0 and second_val%2 == 0 and third_val%2 == 0 : 
     print('even')
+# Use a method that displays if the program is odd
 elif first_val%2 != 0 and second_val%2 != 0 and third_val%2 != 0 : 
     print('odd')
+# Use a method that displays if the program is mixed
 else: 
     print("Mixed")

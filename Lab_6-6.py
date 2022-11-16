@@ -16,6 +16,5 @@ len_second = len(second_word)
 len_third= len(third_word)
 len_fourth = len(fourth_word)
 len_fifth = len(fifth_word)
-
 len_list = [len_first, len_second, len_third, len_fourth, len_fifth]
 print(len_list)
